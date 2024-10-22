@@ -1,0 +1,24 @@
+
+  .navbar-item:hover {
+    color: #ffa700; 
+    cursor: pointer
+  }
+  
+  .cart-container {
+    position: relative;
+  }
+  
+  .cart-box {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 300px;
+    background-color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 10px;
+    z-index: 1000;
+    display: block; /* Ensure it's set to display */
+    border: 1px solid red; /* Temporary styling to make it visible */
+  }
+  
